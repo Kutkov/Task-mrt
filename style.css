@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.contact-line{
+	/*height: 130px;*/
+	padding-top: 25px;
+	margin-bottom: 10%;
+}
+#logo img{
+	margin-top: -20px;
+}
+.center-content{
+	width: 230px;
+}
+.center-content span{
+	font-size: 15px;
+}
+#phone{
+	font-size: 24px;
+	line-height: 35px;
+	letter-spacing: 0.8px;
+}
+#button{
+	width: 220px;
+	border: 1px solid #a54e72;
+	border-radius: 2px;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 5px;
+}
+#button a{
+	color: #a54e72;
+	font-size: 13px;
+
+}
+
+#right-mnu{
+	text-align: right;
+	font-size: 15px;
+}
+#right-mnu span{
+	color: #a54e72;
+	font-weight: 600;
+}
+
+.mnu-line{
+	height: 55px;
+	background: #488ba7;
+
+}
+#navigation{
+	height: 55px;
+}
+#navigation ul{
+	margin: 0;
+	padding: 0;
+}
+#navigation ul li{
+	float: left;
+	list-style: none;
+	position: relative;
+}
+
+#navigation ul li a{
+	color: #fff;
+	padding: 0 30px;
+	text-decoration: none;
+	line-height: 55px;
+	display: block;
+	height: 55px;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+#navigation ul li a:hover{
+	background: #6da2b9;
+	
+}
+#navigation .dropdown{
+	position: absolute;
+	top: 100%;
+	width: 280px;
+	background: #ccc;
+	display: none;
+	opacity: .6;
+}
+#navigation li:hover .dropdown{
+	display: block;
+}
+#navigation .dropdown li{
+	width: 100%;
+	height: 35px;
+
+}
+#navigation .dropdown li a{
+	line-height: 35px;
+	height: 35px;
+	border-bottom: 1px solid #fff;
+	text-transform: none;
+}
+
+.doctor{
+	height: 570px;
+	background-image: url(img/background.png);
+	background-size: cover;
+	background-position: center;
+}
+.right-doctor{
+	margin-top: 100px;
+	float: right;
+}
+.right-doctor span{
+	color: #a54e72;
+	text-transform: uppercase;
+	font-size: 26px;
+	font-weight: 600;
+}
+.right-doctor p{
+	font-size: 20px;
+	color: #333333;
+}
+
+.test-right{
+	position: absolute;
+	z-index: 9999999999;
+	width: 600px;
+	padding-top: 40px;
+	text-align: center;
+}
+
+#hexagon {
+	width: 600px;
+	height: 150px;
+	background: #fff;
+	opacity: .6;
+	position: relative;
+}
+
+#hexagon:after {
+	content: "";
+	position: absolute;
+	bottom: -80px; 
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 300px solid transparent;
+	border-right: 300px solid transparent;
+	border-top: 80px solid #fff;
+}
+
+.callback{
+	margin-top: 115px;
+	display: inline-block;
+	background-color: #a54e72; 
+	color: #fff ;
+	font-size: 16px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	padding: 13px 34px;
+	border-radius: 3px;
+	box-shadow: 0 3px 0 #7a3e57;
+	transition: all .15s ease;
+	text-align: center;
+}
+
+.callback:hover{
+	color: #fff;
+	text-decoration: none;
+	background-color: #ac5a7c;
+}
+.callback:active{
+	background-color: #7a3e57;
+	transform: translateY(2px);
+}
+
+/* -- Секция "почему нас выбирают" -- */
+
+.choice{
+	/*height: 450px;*/
+	padding-bottom: 25px;
+	background-color: #488ba7;
+	color: #fff;
+}
+
+.section-title{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 45px;
+	font-weight: 600;
+
+}
+.choice-part{
+	margin-top: 40px;
+	font-size: 18px;
+	text-align: center;
+	
+}
+.choice-part span{
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.circle{
+	width: 160px;
+	height: 160px;
+	background: #fff;
+	border-radius: 50%;
+	line-height: 160px;
+	
+}
+.circle img{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/*Секция Центр МРТ Кингисеппский*/
+.MRT{
+	height: 930px;
+}
+
+.MRT .section-title{
+	color: #a54e72;
+	margin-bottom: 40px;
+}
+
+.layout p{
+	font-size: 16px;
+}
+
+.square{
+	position: absolute;
+	z-index: -1;
+	margin: auto;
+	width: 310px;
+	height: 140px;
+	background: #f6f8f9;
+	
+}
+
+.content{
+	font-size: 18px;
+	padding-top: 50px;
+	padding-left: 100px;
+}
+.content span{
+	font-weight: 700;
+	color: #a54e72;
+}
+
+.img-content{
+	height: 140px;
+	padding-left: 18px;
+	line-height: 140px;
+}
+.img-conten img{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/*Секция как записаться на прием*/
+.entry{
+	height: 665px;
+	background-image: url(img/background-entry.png);
+	background-size: cover;
+	background-position: center;
+}
+.entry .section-title{
+	color: #488ba7;
+}
+
+ /*Список*/
+.list{
+ 	width: 900px;
+ }
+.list .rounded {
+counter-reset: li; 
+list-style: none;
+padding-top: 10px;
+width: inherit;
+
+}
+
+.rounded li{
+	position: relative;
+	padding: 25px 2em 25px 3em;
+	margin: 1.2em 0;
+	background: rgba(247, 249, 250, 0.7);
+	height: 100px;
+
+}
+.rounded span {
+color: #333333;
+font-size: 18px;
+
+}
+
+.rounded span:before {
+content: counter(li);
+counter-increment: li;
+position: absolute;
+left: -1.3em;
+top: 50%;
+margin-top: -1.2em;
+background: #fff;
+height: 60px;
+width: 60px;
+line-height: 2.3em;
+border: 1px solid #488ba7;
+text-align: center;
+font-size: 26px;
+color: #488ba7;
+font-weight: 600;
+border-radius: 50%;
+
+}
+
+/*.rounded li:after{
+	content: "";
+	border-right: 40px solid red;
+	border-top: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+	height: 0;
+	width: 100px;
+
+}*/
+
+.rounded li:before{
+	content: "";
+	position: absolute;
+    width: 80px;
+    height: 80px;    
+    border-radius: 50%;
+    margin-top: 4.9%;
+   	left: -2%;
+    border: 1px solid #488ba7;
+    clip: rect(0, 14px, 100px, 0);
+
+}
+.rounded li:last-child:before{
+	border: none;
+}
+.section-footer{
+	color: #a54e72;
+	text-align: center;
+	padding-top: 15px;
+	font-size: 14px;
+}
+
+/*-------------*/
+.info{
+	color: #fff;
+	background: #488ba7;
+}
+.section-info{
+	text-align: center;
+	padding: 15px 0 15px 0;
+}
+.section-info span{
+	font-size: 26px;
+}
+/*----------------*/
+
+.footer-right{
+	text-align: right;
+	padding-top: 10px;
+}
+.foot #button{
+	width: 150px;
+		float: right;
+}
+#button2{
+	width: 150px;
+	border: 1px solid #a54e72;
+	border-radius: 2px;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 5px;
+	background-color: #a54e72; 
+	color: #fff ;
+	box-shadow: 0 3px 0 #7a3e57;
+	text-align: center;
+	margin-left: 30%;
+
+}
+
+#button2 a{
+	color: #fff;
+}
+
+.footer-ul a{
+	
+	color: #333333;
+	font-size: 15px;
+}
+
+.footer-ul a:hover{
+	color: #a54e72;
+	border-bottom: 1px #a54e72 dashed;
+	text-decoration: none;
+}
+
+.bottom{
+	border-top: 2px #f5f5f5 solid;
+	padding: 10px;
+}
+.bottom a{
+	float: right;
+	color: #a54e72;
+}
+
